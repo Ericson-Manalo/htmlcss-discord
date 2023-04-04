@@ -22,7 +22,7 @@ body{
 }
 
 .small-container{
-    width: 60%;
+    width: 65%;
     margin: auto;
     max-width: 1000px;
     padding-top: 20px;
@@ -33,9 +33,6 @@ body{
     background-color: #a5cedb;
 }
 
-.bar-container{
-
-}
 
 .main-logo{
     width: 20%;
@@ -117,12 +114,36 @@ body{
     padding: 10px;
 }
 
+.main-paragraph{
+    line-height: 40px;
+    margin-top: 40px;
+}
+
 .botton-btn{
     align-items: center;
     background-color: #fdb6c1;
     padding: 10px;
 }
+.btn-item{
+    padding: 8px 25px;
+    margin-top: 20px;
+    border-radius: 40px;
+}
 
+.download{
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+}
+
+.open{
+    background-color: #23272a;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
 
 nav ul.flex{
     list-style-type: none;
