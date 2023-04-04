@@ -14,7 +14,7 @@ body{
 }
 
 .big-container{
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     max-width: 1200px;
     padding-top: 20px;
@@ -22,7 +22,7 @@ body{
 }
 
 .small-container{
-    width: 50%;
+    width: 60%;
     margin: auto;
     max-width: 1000px;
     padding-top: 20px;
@@ -34,8 +34,7 @@ body{
 }
 
 .bar-container{
-    background-color: #DAA520;
-    height: 50px;
+
 }
 
 .main-logo{
@@ -58,7 +57,6 @@ body{
 }
 
 .darkpink-box{
-    background-color: #ee82ee;
     height: 400px;
     text-align: center;
     color: white;
@@ -78,7 +76,6 @@ body{
 .pink-box{
     height: 600px;
     width: 30%;
-    background-color: #fdc0cb;
 }
 
 .grey-bg{
