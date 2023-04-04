@@ -103,17 +103,21 @@ header{
     height: 60px;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .logo-btn{
     align-items: center;
-
 }
 
 .upper-paragraph{
     line-height: 40px;
     margin-top: 40px;
     font-size: 19px;
+}
+
+hr{
+    color: #8ea1e1;
 }
 
 .main-paragraph{
@@ -124,8 +128,11 @@ header{
 
 .botton-btn{
     align-items: center;
-
+    background-color: #8ea1e1;
     padding: 10px;
+    border-radius: 40px;
+    padding: 10px 20px;
+    color: white;
 }
 
 .btn-item{
@@ -142,7 +149,7 @@ header{
 }
 
 .downloading{
-    margin: 0 auto;
+    margin: 30px auto 60px;
     width: 17%;
     font-size: 16px;
     color: white;
