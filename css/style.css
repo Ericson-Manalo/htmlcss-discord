@@ -76,7 +76,8 @@ body{
 .grey-bg{
     background-image: url("../img/wave.svg");
     background-repeat: repeat;
-
+    background-color: #8ea1e1;
+}
 
 .green-box{
     text-align: center;
