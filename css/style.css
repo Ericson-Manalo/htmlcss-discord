@@ -22,9 +22,9 @@ body{
 }
 
 .small-container{
-    width: 40%;
+    width: 50%;
     margin: auto;
-    max-width: 800px;
+    max-width: 1000px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -61,6 +61,9 @@ body{
     background-color: #ee82ee;
     height: 400px;
     text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 30px;
 }
 
 .darkblue-bg{
@@ -68,13 +71,12 @@ body{
 }
 
 .lightblue-box{
-    background-color: #1e90ff;
-    height: 300px;
+    height: 600px;
     width: 70%;
 }
 
 .pink-box{
-    height: 300px;
+    height: 600px;
     width: 30%;
     background-color: #fdc0cb;
 }
