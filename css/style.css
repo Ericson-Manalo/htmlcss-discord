@@ -48,6 +48,7 @@ body{
     width: 20%;
     justify-content: end;
     align-items: center;
+    background-color: white;
 }
 
 .nav-bar{
@@ -58,11 +59,12 @@ body{
 
 .darkpink-box{
     background-color: #ee82ee;
-    height: 300px;
+    height: 400px;
+    text-align: center;
 }
 
 .darkblue-bg{
-    background-color: #01098b;
+    background-image: url("../img/jumbo.png");
 }
 
 .lightblue-box{
@@ -122,14 +124,15 @@ body{
     padding: 10px;
 }
 
-.zerobottomgpadding{
-    padding-bottom: 0px;
-}
 
 nav ul.flex{
     list-style-type: none;
+    justify-content: space-around;
 }
 
-
+li{
+    margin-right: 40px;
+    color: white;
+}
 
 
