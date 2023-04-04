@@ -89,7 +89,6 @@ body{
 .salmon-box{
     width: 30%;
     height: 400px;
-    background-color: #b86665;
 }
 
 header{
@@ -98,20 +97,17 @@ header{
 }
 .aquamarine-box{
     width: 17.5%;
-    background-color: #1b948e;
 }
 
 .footer-container{
     height: 60px;
-    background-color: #7fffd4;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo-btn{
     align-items: center;
-    background-color: #fdb6c1;
-    padding: 10px;
+
 }
 
 .upper-paragraph{
@@ -128,7 +124,7 @@ header{
 
 .botton-btn{
     align-items: center;
-    background-color: #fdb6c1;
+
     padding: 10px;
 }
 
@@ -165,6 +161,17 @@ header{
     width: 27px;
     height: 20px;
 }
+
+.violet-item{
+    color: #8ea1e1;
+}
+
+.last-list{
+    margin-top: 40px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
 
 nav ul.flex{
     list-style-type: none;
