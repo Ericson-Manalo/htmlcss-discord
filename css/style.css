@@ -174,11 +174,21 @@ hr{
 }
 
 .last-list{
-    margin-top: 40px;
+    padding: 20px;
+    margin-top: 36px;
     line-height: 30px;
     margin-bottom: 40px;
 }
 
+.last-title{
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.lower-title{
+    background-image: url("../img/stars.svg");
+    background-size: 100%;
+}
 
 nav ul.flex{
     list-style-type: none;
