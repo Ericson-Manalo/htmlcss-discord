@@ -64,8 +64,8 @@ body{
 }
 
 .lightblue-box{
-    height: 600px;
     width: 70%;
+    margin-bottom: 120px;
 }
 
 .pink-box{
@@ -73,10 +73,10 @@ body{
     width: 30%;
 }
 
-.grey-bg{
+.wave{ 
     background-image: url("../img/wave.svg");
-    background-repeat: repeat;
-    background-color: #8ea1e1;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(20deg);
 }
 
 .green-box{
@@ -94,7 +94,7 @@ body{
 
 header{
     background-image: url("../img/jumbo.png");
-    background-size: 100%;
+    background-size: cover;
 }
 .aquamarine-box{
     width: 17.5%;
@@ -121,6 +121,9 @@ hr{
     color: #8ea1e1;
 }
 
+.asset.items{
+    margin-top: 70px;
+}
 .main-paragraph{
     line-height: 30px;
     margin-top: 30px;
@@ -174,6 +177,10 @@ hr{
     color: #8ea1e1;
 }
 
+.image-item{
+    justify-content: ;
+}
+
 .last-list{
     padding: 20px;
     margin-top: 36px;
@@ -182,7 +189,7 @@ hr{
 }
 
 .last-title{
-    font-size: 35px;
+    font-size: 38px;
     margin-top: 50px;
 }
 
@@ -206,5 +213,6 @@ h1{
     font-size: 40px;
     font-weight: bold;
     margin-top: 30px;
+    padding-top: 3rem;
 }
 
