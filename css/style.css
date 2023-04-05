@@ -73,11 +73,6 @@ body{
     width: 30%;
 }
 
-.wave{ 
-    background-image: url("../img/wave.svg");
-    -ms-transform: rotate(20deg); /* IE 9 */
-    transform: rotate(20deg);
-}
 
 .green-box{
     text-align: center;
@@ -90,6 +85,10 @@ body{
 .salmon-box{
     width: 30%;
     height: 400px;
+}
+
+.grey-bg{
+    background-color: #f6f6f6;
 }
 
 header{
@@ -115,6 +114,18 @@ header{
     line-height: 40px;
     margin-top: 40px;
     font-size: 19px;
+}
+
+div.wave{
+    height: 80px;
+    background-image: url('../img/wave.svg');
+    filter: opacity(0.04);
+    background-size: cover;
+}
+
+div.wave.reverse{
+    height: 80px;
+    transform: rotateX(0.5turn);
 }
 
 hr{
@@ -177,9 +188,6 @@ hr{
     color: #8ea1e1;
 }
 
-.image-item{
-    justify-content: ;
-}
 
 .last-list{
     padding: 20px;
